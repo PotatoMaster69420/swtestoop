@@ -1,0 +1,49 @@
+#dvd, #book, #furniture {
+    display: none;
+}
+
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    color:aliceblue;
+    font-family: 'Almarai', sans-serif;
+}
+
+.container2 {
+    background-color: rgb(9, 85, 129);
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.container {
+    background-color: rgb(36, 39, 41);
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.headerbutton {
+    height: 75px;
+    width: 150px;
+    background-color: #580c04;
+    color: rgb(255, 255, 255);
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    margin: 0px 10px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    font-family: 'Space Mono', monospace;
+}
+
+
+.hidden{
+    visibility:collapse;
+}
+
+

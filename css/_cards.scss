@@ -1,0 +1,83 @@
+@import 'var';
+
+.itemcard {
+    background-color: $primary-color;
+    border: $black-border;
+    border-radius: 7%;
+    width: 200px;
+    height: 320px;
+    margin: 70px 40px;
+    display: grid;
+    grid-template-columns: 50px 100px 50px ;
+    grid-template-rows: 50px 40px 40px 70px 50px 50px;
+     
+
+    .delete-checkbox {
+        width: 50px;
+        height: 50px;
+        grid-row-start: 6;
+        grid-row-end: 7;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        pointer-events: none;
+    }
+
+
+
+    h3.title {
+        background-color: white;
+        color: $secondary-color;
+        border: $black-border;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        align-self: stretch;
+        justify-self: stretch;
+        text-align: center;
+        padding-top: 5px;
+        height: 50px;
+               
+    }
+
+    
+        .itemname {
+            align-self: stretch;
+            justify-self: stretch;
+            text-align: center;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            font-size: 20px;
+        }
+
+        .itemprice {
+            align-self: stretch;
+            justify-self: stretch;
+            text-align: center;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            font-size: 18px;
+        }
+
+        .itemattribute {
+
+            align-self: stretch;
+            justify-self: stretch;
+            text-align: center;
+            grid-row-start: 4;
+            grid-row-end: 5;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            font-size: 18px;
+
+        }
+    
+
+}

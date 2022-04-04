@@ -1,0 +1,44 @@
+@import 'var';
+@import 'cards';
+@import 'form';
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+
+body {
+    background-color: $primary-color;
+    font-family: $mainfont;
+    color: aliceblue;
+}
+
+.container {
+    background-color: rgb(189, 228, 250);
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.headerbutton {
+    height: 75px;
+    width: 150px;
+    background-color: $secondary-color;
+    color: aliceblue;
+    border-top: $border-rounded-white;
+    border-left: $border-rounded-white;
+    border-right: $border-rounded-white;
+    //margin: 0px 10px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    font-family: 'Space Mono', monospace;
+    cursor: pointer;
+    
+}
+
+.menu {
+    display: flex;
+}
+
+#delete-product-btn {
+    width: 250px !important;
+}

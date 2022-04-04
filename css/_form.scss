@@ -1,0 +1,53 @@
+#form_container {
+
+    background-color: rgb(36, 39, 41);
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    min-height: 500px;
+
+}
+
+#product_form {
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+    label.error {
+        color: red;
+        margin-left: 15px;
+        display: inline;
+        font-size: 20px;
+    }
+
+    input[aria-invalid='true'] {
+
+        border: 3px solid red;
+
+    }
+
+    .typeattr {
+        display: none;
+    }
+
+    input {
+        font-size:30px;
+        margin: 5px;
+    }
+
+    #submitbtndiv {
+        position: relative;
+        left:300px;
+ 
+    }
+
+    select {
+        font-size: 20px;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+}

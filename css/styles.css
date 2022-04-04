@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
+.itemcard {
+  background-color: black;
+  border: 5px solid black;
+  border-radius: 7%;
+  width: 200px;
+  height: 320px;
+  margin: 70px 40px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50px 100px 50px;
+      grid-template-columns: 50px 100px 50px;
+  -ms-grid-rows: 50px 40px 40px 70px 50px 50px;
+      grid-template-rows: 50px 40px 40px 70px 50px 50px;
+}
+
+.itemcard .delete-checkbox {
+  width: 50px;
+  height: 50px;
+  -ms-grid-row: 6;
+      grid-row-start: 6;
+  grid-row-end: 7;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  text-align: center;
+  pointer-events: none;
+}
+
+.itemcard h3.title {
+  background-color: white;
+  color: #580c04;
+  border: 5px solid black;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 2;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+  text-align: center;
+  padding-top: 5px;
+  height: 50px;
+}
+
+.itemcard .itemname {
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+  text-align: center;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 3;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+  font-size: 20px;
+}
+
+.itemcard .itemprice {
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+  text-align: center;
+  -ms-grid-row: 3;
+      grid-row-start: 3;
+  grid-row-end: 4;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+  font-size: 18px;
+}
+
+.itemcard .itemattribute {
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+  text-align: center;
+  -ms-grid-row: 4;
+      grid-row-start: 4;
+  grid-row-end: 5;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+  font-size: 18px;
+}
+
+#form_container {
+  background-color: #242729;
+  border: 2px solid white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30px;
+  min-height: 500px;
+}
+
+#product_form {
+  text-align: center;
+  margin: auto;
+  max-width: 400px;
+}
+
+#product_form label.error {
+  color: red;
+  margin-left: 15px;
+  display: inline;
+  font-size: 20px;
+}
+
+#product_form input[aria-invalid='true'] {
+  border: 3px solid red;
+}
+
+#product_form .typeattr {
+  display: none;
+}
+
+#product_form input {
+  font-size: 30px;
+  margin: 5px;
+}
+
+#product_form #submitbtndiv {
+  position: relative;
+  left: 300px;
+}
+
+#product_form select {
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  background-color: black;
+  font-family: "Merriweather Sans", sans-serif;
+  color: aliceblue;
+}
+
+.container {
+  background-color: #bde4fa;
+  border: 2px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.headerbutton {
+  height: 75px;
+  width: 150px;
+  background-color: #580c04;
+  color: aliceblue;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+  font-family: 'Space Mono', monospace;
+  cursor: pointer;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#delete-product-btn {
+  width: 250px !important;
+}
+/*# sourceMappingURL=styles.css.map */
